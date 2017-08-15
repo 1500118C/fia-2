@@ -4,4 +4,3 @@ if [[ $(yum list dhcpd &>/dev/null | grep "Installed Packages") ]] ; then
 else
 	printf "\e[32mDHCPD is not installed\e[0m\n"
 fi
-
